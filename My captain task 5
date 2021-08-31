@@ -1,0 +1,55 @@
+import sys
+print ('python:{}.format(sys.version))
+import scipy
+Print ('scipy:{}.format(scipy._version_))
+import bumpy
+Print ('numpy:{}.format(numpy._version_))
+import matplotlib
+Print('matplot:{}.format(matplotlib._version_))
+import pandas
+Print('pandas:{}.format(pandas._version_))
+import sklearn
+Print('sklearn:{}.format(sklearn._version_))
+import pandas
+from pandas.plotting import scatter_matrix
+from matplotlib import pyplot
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import stratified fold
+from sklearn.matics import classification_report
+from sklearn.matrics import confusion_matrix
+from sklearn.matrics import accuracy_score
+from sklearn.linear_model import logistic regression
+from sklearn.tree import decision tree classifier
+from sklearn.neighbour import neighbor classifier 
+from sklearn.discriminant_analysis import linear discriminant analysis
+from sklearn.native_bayes import gaussian
+from sklearn.svc importsvc
+from sklearn import model_selection
+from sklearn.ensemble import bitting classifier
+Print(dataset.shape)
+Print(dataset.head(20)
+Print(dataset.describe)
+Print(dataset.groupby('class').size()))
+dataset.plot(kind='box',subplot=true,layout=(2,2),shapex=false,shape y=false
+Pyplot.show()
+Dataset.list()
+Pyplot show()
+scatter.matrix(dataset)
+Pyplot.show()
+Array=dataset.values
+X=array[:,0:4]
+Y=array[:,4]
+X_train,x_valudation,y_train,y_validation=train&test_split(x,y,test_size=0.2,random_state=])
+model=[]
+models.append(('LR', Logisticregression(solver='liblinear',multi_class='ovr')))
+models.append(('LDA',linear discriminant analysis ()))
+models.append(('ND', Gaussian ND()))
+models.append(('SVC',SVC(gamma='auto')))
+model=SVC(gamma='auto')
+model.fit(X_train,Y_train)
+Predictions=model.predict(x_validation)
+Print (accuracy_score(y_validation, predictions))
+Print(confusion_matrix(y_validation, predictions))
+Print(classification_report(y_validation, predictions))
+
